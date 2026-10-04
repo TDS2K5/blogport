@@ -1,6 +1,6 @@
-baseURL: "https://example.org/"
+baseURL: "https://tanishkputhran.dpdns.org/"
 locale: en-us
-title: My Site
+title: blogport
 disableKinds:
   - taxonomy
   - term

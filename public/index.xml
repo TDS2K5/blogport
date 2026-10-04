@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My Site</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on My Site</description>
+		<title>blogport</title>
+		<link>https://tanishkputhran.dpdns.org/</link>
+		<description>Recent content on blogport</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 04 Oct 2026 19:53:41 +0530</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://tanishkputhran.dpdns.org/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Somethin&#39;s better than nothing</title>
-				<link>http://localhost:1313/posts/konnichiwa/apiece/my-first-post/</link>
+				<link>https://tanishkputhran.dpdns.org/posts/konnichiwa/apiece/my-first-post/</link>
 				<pubDate>Sun, 04 Oct 2026 19:53:41 +0530</pubDate>
-				<guid>http://localhost:1313/posts/konnichiwa/apiece/my-first-post/</guid>
+				<guid>https://tanishkputhran.dpdns.org/posts/konnichiwa/apiece/my-first-post/</guid>
 				<description>A blog. My first one.</description>
 			</item>
 	</channel>

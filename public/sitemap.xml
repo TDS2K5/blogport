@@ -3,19 +3,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/konnichiwa/apiece/my-first-post/</loc>
+    <loc>https://tanishkputhran.dpdns.org/posts/konnichiwa/apiece/my-first-post/</loc>
     <lastmod>2026-10-04T19:53:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/konnichiwa/apiece/</loc>
+    <loc>https://tanishkputhran.dpdns.org/posts/konnichiwa/apiece/</loc>
     <lastmod>2026-10-04T19:53:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/konnichiwa/</loc>
+    <loc>https://tanishkputhran.dpdns.org/posts/konnichiwa/</loc>
     <lastmod>2026-10-04T19:53:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://tanishkputhran.dpdns.org/</loc>
     <lastmod>2026-10-04T19:53:41+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://tanishkputhran.dpdns.org/posts/</loc>
     <lastmod>2026-10-04T19:53:41+05:30</lastmod>
   </url>
 </urlset>
