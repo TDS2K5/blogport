@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Commands on My Site</title>
+		<link>http://localhost:1313/posts/customization/home-page/commands/</link>
+		<description>Recent content in Commands on My Site</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/customization/home-page/commands/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About Command</title>
+				<link>http://localhost:1313/posts/customization/home-page/commands/about/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/customization/home-page/commands/about/</guid>
+				<description>Use the about command to introduce yourself in the terminal.</description>
+			</item>
+			<item>
+				<title>Skills Command</title>
+				<link>http://localhost:1313/posts/customization/home-page/commands/skills/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/customization/home-page/commands/skills/</guid>
+				<description>Use the skills command to show your technical stack by category.</description>
+			</item>
+			<item>
+				<title>Experience Command</title>
+				<link>http://localhost:1313/posts/customization/home-page/commands/experience/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/customization/home-page/commands/experience/</guid>
+				<description>Use the experience command to list roles, companies, dates, and highlights.</description>
+			</item>
+			<item>
+				<title>Projects Command</title>
+				<link>http://localhost:1313/posts/customization/home-page/commands/projects/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/customization/home-page/commands/projects/</guid>
+				<description>Use the projects command to showcase portfolio projects and links.</description>
+			</item>
+			<item>
+				<title>Contact Command</title>
+				<link>http://localhost:1313/posts/customization/home-page/commands/contact/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/customization/home-page/commands/contact/</guid>
+				<description>Use the contact command to show email and profile links.</description>
+			</item>
+	</channel>
+</rss>

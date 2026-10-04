@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Setup on My Site</title>
+		<link>http://localhost:1313/posts/start/setup/</link>
+		<description>Recent content in Setup on My Site</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/start/setup/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Quick Start</title>
+				<link>http://localhost:1313/posts/start/setup/quick-start/</link>
+				<pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/start/setup/quick-start/</guid>
+				<description>Run the Portless-powered demo site and add Nerdy to your own Hugo site.</description>
+			</item>
+	</channel>
+</rss>

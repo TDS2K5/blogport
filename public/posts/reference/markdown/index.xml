@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Markdown on My Site</title>
+		<link>http://localhost:1313/posts/reference/markdown/</link>
+		<description>Recent content in Markdown on My Site</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/reference/markdown/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Markdown Examples</title>
+				<link>http://localhost:1313/posts/reference/markdown/markdown-examples/</link>
+				<pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/reference/markdown/markdown-examples/</guid>
+				<description>See how common Markdown elements look in Nerdy.</description>
+			</item>
+	</channel>
+</rss>
