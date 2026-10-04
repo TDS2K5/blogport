@@ -1,0 +1,28 @@
+name: skills
+label: Skills
+description: My technical stack
+quick: true
+weight: 20
+categories:
+  - key: languages
+    items:
+      - Python
+      - BASH
+      - JavaScript
+
+  - key: networking
+    items:
+      - Tailscale
+      - Wireshark
+      - Packet Tracer
+  - key: platforms
+    items:
+      - Linux
+      - Windows
+      - Android
+  - key: devops_tools
+    items:
+      - Docker
+      - Kubernetes
+      - Git
+      - Ansible

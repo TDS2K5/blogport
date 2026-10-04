@@ -1,0 +1,53 @@
+profile:
+  name: "Tanishk Puthran"
+  title: DevOps Engineer
+  avatar: "images/pikachu.jpg"
+  description: Obsessed with Linux systems and networking.
+  # status:
+  #   label: Status
+  #   value: Open to Senior Roles
+  #   preference_label: Pref
+  #   preference: 100% Remote / Async
+  links:
+    # - icon: website
+    #   label: nerdy.hugo-themes.com
+    #   url: https://nerdy.hugo-themes.com
+    - icon: github
+      label: github.com/tds2k5
+      url: https://github.com/tds2k5
+    # - icon: linkedin
+    #   label: linkedin.com/in/tanishk-puthran
+    #   url: https://linkedin.com/in/tanishk-puthran
+    #
+    # - icon: mail
+    #   label: tanishkputhran1@gmail.com
+    #   url: mailto:tanishkputhran1@gmail.com
+
+sections:
+  - id: profile-stats
+    type: stats
+    title: Profile Stats
+    items:
+      - label: Experience
+        value: Rookie
+        accent: amber
+      - label: Distro
+        value: Fedora
+        accent: cyan
+      - label: Language
+        value: Python
+        accent: emerald
+      - label: Network
+        value: Tailscale
+        accent: purple
+  - id: core-stack
+    type: tags
+    title: Stack / Tools
+    items:
+      - Docker
+      - K8s
+      - Postman
+      - Wireshark
+      - Git
+      - BASH
+

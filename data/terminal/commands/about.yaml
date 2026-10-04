@@ -1,0 +1,14 @@
+name: about
+label: about
+description: Information about me
+quick: true
+weight: 10
+# greeting: Hello, World!
+person_name: "Tanishk Puthran"
+role: "Devops Engineer"
+summary: I enjoy exploring FOSS projects along with a cup of chai :D
+details:
+  - My journey started with a fascination for rooting Android devices. Today, I manage my self-hosted homelab, automate stuff, deploy on the cloud, and daily drive Linux.
+# quote:
+#   text: First, solve the problem. Then, write the code.
+#   author: John Johnson
