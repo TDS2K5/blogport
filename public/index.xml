@@ -10,15 +10,29 @@
 		
 		
 		
-			<lastBuildDate>Sun, 04 Oct 2026 19:53:41 +0530</lastBuildDate>
+			<lastBuildDate>Sun, 11 Oct 2026 20:53:41 +0530</lastBuildDate>
 		
 			<atom:link href="https://tanishkputhran.dpdns.org/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>&#39;I use Fedora btw&#39;</title>
+				<link>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/my-first-post/</link>
+				<pubDate>Sun, 11 Oct 2026 19:53:41 +0530</pubDate>
+				<guid>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/my-first-post/</guid>
+				<description>A preface about me and Linux.</description>
+			</item>
 			<item>
 				<title>Somethin&#39;s better than nothing</title>
 				<link>https://tanishkputhran.dpdns.org/posts/konnichiwa/apiece/my-first-post/</link>
 				<pubDate>Sun, 04 Oct 2026 19:53:41 +0530</pubDate>
 				<guid>https://tanishkputhran.dpdns.org/posts/konnichiwa/apiece/my-first-post/</guid>
 				<description>A blog. My first one.</description>
+			</item>
+			<item>
+				<title>PostInstallRush</title>
+				<link>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/postinstallrush/</link>
+				<pubDate>Sun, 11 Oct 2026 20:53:41 +0530</pubDate>
+				<guid>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/postinstallrush/</guid>
+				<description>My setup, post-install.</description>
 			</item>
 	</channel>
 </rss>

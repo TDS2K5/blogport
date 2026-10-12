@@ -21,7 +21,7 @@
   
     
       
-        <link rel="stylesheet" href="/css/main.284612f7dbe0000e6938d45ef9e1de0d394b01caf100512b542f4038e125d15a.css" integrity="sha256-KEYS99vgAA5pONRe&#43;eHeDTlLAcrxAFErVC9AOOEl0Vo=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/main.8d03015d65fa88f86064f66774d7ee902648d9a73263d544837aad0724913238.css" integrity="sha256-jQMBXWX6iPhgZPZndNfukCZI2acyY9VEg3qtBySRMjg=" crossorigin="anonymous">
       
     
   
@@ -72,6 +72,12 @@
     
       
         
+          
+        
+      
+    
+      
+        
       
     
     
@@ -112,6 +118,38 @@
         
         <div>
           
+          <button class="post-sidebar-subject" type="button" aria-expanded="false" aria-controls="workspace-subject-linux" x-on:click="openSubject(&#34;linux&#34;)" x-bind:aria-expanded="expandedSubject === &#34;linux&#34;">
+            <svg class="post-sidebar-subject-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            <svg class="h-5 w-5 shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+
+            <span>Linux</span>
+            <span class="post-sidebar-subject-count">2</span>
+          </button>
+
+          <div id="workspace-subject-linux" class="ml-4 mt-1 space-y-1 border-l border-slate-300/80 pl-3 dark:border-slate-700/60" x-show="expandedSubject === &#34;linux&#34;" x-cloak>
+            
+            
+              
+              
+
+              
+                <a class="flex w-full items-center gap-2.5 rounded-lg px-2 py-1.5 text-left font-mono text-xs transition-colors" href="#subject-linux-topic-tux" x-on:click="selectTopic(&#34;subject-linux-topic-tux&#34;, &#34;linux&#34;, &#34;Linux&#34;, &#34;Tux&#34;)" x-bind:class="activeTopic === &#34;subject-linux-topic-tux&#34; ? 'bg-accent-amber/10 font-bold text-accent-amber' : 'text-slate-700 hover:bg-slate-100/90 hover:text-slate-950 dark:text-slate-400 dark:hover:bg-slate-800/50 dark:hover:text-white'" data-topic-id="subject-linux-topic-tux" data-subject-id="linux" data-subject-label="Linux" data-topic-label="Tux">
+                  <span class="text-slate-400 dark:text-slate-600">└─</span>
+                  <svg class="h-3.5 w-3.5 shrink-0 text-slate-500" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l6 6v10a2 2 0 01-2 2z"/><path stroke-linecap="round" stroke-linejoin="round" d="M14 4v6h6"/></svg>
+
+                  <span>Tux</span>
+                  <span class="ml-auto text-[10px] text-slate-400 dark:text-slate-600">2</span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+        
+        
+        
+        <div>
+          
           <button class="post-sidebar-subject" type="button" aria-expanded="false" aria-controls="workspace-subject-konnichiwa" x-on:click="openSubject(&#34;konnichiwa&#34;)" x-bind:aria-expanded="expandedSubject === &#34;konnichiwa&#34;">
             <svg class="post-sidebar-subject-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
             <svg class="h-5 w-5 shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
@@ -146,6 +184,199 @@
 
           <main class="flex flex-col gap-10 lg:col-span-9">
             <div class="flex flex-col gap-10" x-show="activeTopic" x-cloak>
+              
+                
+                
+                  
+                  
+                  
+                  <div class="flex flex-col gap-10" x-show="activeTopic === &#34;subject-linux-topic-tux&#34;" x-cloak>
+                    <section>
+  <div class="nerdy-section-heading ">
+  <span class="flex h-6 w-6 shrink-0 items-center justify-center text-accent-cyan" style="color: var(--accent-cyan);">
+    <svg class="h-5 w-5" aria-hidden="true" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_901_889)">
+<path d="M7 25V2.005C7 2.005 7 1 8 1H30C30 1 31 1.005 31 2.005V28.005C31 28.005 31 31 28 31H4C4 31 1 31.005 1 27.005V12.005C1 12.005 1 11 2 11H4M13 7H18M13 11H25M13 15H25M13 19H25M13 23H25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_901_889">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+  </span>
+  <h2 class="nerdy-section-title">&gt;&gt; Recent Posts</h2>
+</div>
+
+
+  <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
+    
+      <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-cyan relative flex min-h-52 flex-col justify-between overflow-hidden p-5" href="/posts/linux/preface/linux_series/postinstallrush/">
+        <div>
+          <div class="mb-3 flex items-center justify-between gap-3">
+            <time class="font-mono text-[10px] nerdy-muted-soft" datetime="2026-10-11">2026-10-11</time>
+            <span class="nerdy-chip nerdy-chip-cyan">preface</span>
+          </div>
+          <h3 class="mb-2 text-base font-bold leading-snug nerdy-card-title nerdy-title-accent-cyan">PostInstallRush</h3>
+          <p class="mb-4 line-clamp-3 text-xs leading-5 nerdy-muted">My setup, post-install.</p>
+        </div>
+        <div class="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 font-mono text-[11px] dark:border-slate-700/50">
+          <span class="nerdy-muted-soft">1 min read</span>
+          <span class="flex items-center gap-1 text-accent-cyan">Read <span class="transition-transform group-hover:translate-x-1">-&gt;</span></span>
+        </div>
+      </a>
+    
+      <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-cyan relative flex min-h-52 flex-col justify-between overflow-hidden p-5" href="/posts/linux/preface/linux_series/my-first-post/">
+        <div>
+          <div class="mb-3 flex items-center justify-between gap-3">
+            <time class="font-mono text-[10px] nerdy-muted-soft" datetime="2026-10-11">2026-10-11</time>
+            <span class="nerdy-chip nerdy-chip-cyan">preface</span>
+          </div>
+          <h3 class="mb-2 text-base font-bold leading-snug nerdy-card-title nerdy-title-accent-cyan">&#39;I use Fedora btw&#39;</h3>
+          <p class="mb-4 line-clamp-3 text-xs leading-5 nerdy-muted">A preface about me and Linux.</p>
+        </div>
+        <div class="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 font-mono text-[11px] dark:border-slate-700/50">
+          <span class="nerdy-muted-soft">3 min read</span>
+          <span class="flex items-center gap-1 text-accent-cyan">Read <span class="transition-transform group-hover:translate-x-1">-&gt;</span></span>
+        </div>
+      </a>
+    
+  </div>
+</section>
+
+<section>
+  <div class="nerdy-section-heading ">
+  <span class="flex h-6 w-6 shrink-0 items-center justify-center text-accent-cyan" style="color: var(--accent-cyan);">
+    <svg class="h-5 w-5" aria-hidden="true" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+</svg>
+  </span>
+  <h2 class="nerdy-section-title">&gt;&gt; Post Serieses</h2>
+</div>
+
+
+  <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+    
+        
+        
+        
+        
+        
+          
+        
+          
+        
+        <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-purple relative block overflow-hidden p-5" href="/posts/linux/preface/linux_series/my-first-post/">
+          <div class="mb-3 flex items-center justify-between gap-3">
+            <span class="nerdy-chip nerdy-chip-purple rounded-full px-2.5 py-1 font-bold">ONGOING</span>
+            <span class="font-mono text-xs nerdy-muted-soft">2 Parts</span>
+          </div>
+          <h3 class="mb-2 text-lg font-bold nerdy-card-title nerdy-title-accent-purple">Tux diaries</h3>
+          <p class="mb-4 text-xs leading-relaxed nerdy-muted">A preface about me and Linux.</p>
+          <div class="flex items-center justify-between border-t border-slate-200 pt-2 font-mono text-xs dark:border-slate-800">
+            <span class="nerdy-muted-soft">Total read: <span class="font-bold">4 min</span></span>
+            <span class="nerdy-link">Start Reading -&gt;</span>
+          </div>
+        </a>
+    
+    
+  </div>
+</section>
+
+<section>
+  <div class="mb-6 flex items-center justify-between gap-4">
+    <div class="nerdy-section-heading mb-0">
+  <span class="flex h-6 w-6 shrink-0 items-center justify-center text-accent-cyan" style="color: var(--accent-cyan);">
+    <svg class="h-5 w-5" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 6.00067L21 6.00139M8 12.0007L21 12.0015M8 18.0007L21 18.0015M3.5 6H3.51M3.5 12H3.51M3.5 18H3.51M4 6C4 6.27614 3.77614 6.5 3.5 6.5C3.22386 6.5 3 6.27614 3 6C3 5.72386 3.22386 5.5 3.5 5.5C3.77614 5.5 4 5.72386 4 6ZM4 12C4 12.2761 3.77614 12.5 3.5 12.5C3.22386 12.5 3 12.2761 3 12C3 11.7239 3.22386 11.5 3.5 11.5C3.77614 11.5 4 11.7239 4 12ZM4 18C4 18.2761 3.77614 18.5 3.5 18.5C3.22386 18.5 3 18.2761 3 18C3 17.7239 3.22386 17.5 3.5 17.5C3.77614 17.5 4 17.7239 4 18Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+  </span>
+  <h2 class="nerdy-section-title">&gt;&gt; All Posts</h2>
+</div>
+
+    <span class="font-mono text-xs nerdy-muted-soft">Showing 2 posts</span>
+  </div>
+
+  <div class="nerdy-window">
+    <div class="nerdy-window-bar">
+      <div class="flex min-w-0 items-center gap-3">
+        <div class="flex shrink-0 gap-1.5">
+          <div class="nerdy-window-dot bg-[#ff5f56]"></div>
+          <div class="nerdy-window-dot bg-[#ffbd2e]"></div>
+          <div class="nerdy-window-dot bg-[#27c93f]"></div>
+        </div>
+        <div class="truncate font-bold nerdy-muted">~/posts/Linux/Tux/</div>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="w-full min-w-[680px] whitespace-nowrap text-left">
+        <thead>
+          <tr class="border-b border-slate-300/90 bg-slate-100/95 nerdy-muted-soft dark:border-slate-700/80 dark:bg-slate-900/40">
+            <th class="px-4 py-3 font-semibold">Posted At</th>
+            <th class="px-4 py-3 font-semibold">Reading Time</th>
+            <th class="px-4 py-3 font-semibold">Title</th>
+            <th class="px-4 py-3 font-semibold">Tags</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 text-slate-800 dark:divide-slate-700/40 dark:text-slate-300">
+          
+            
+            <tr class="transition-colors hover:bg-slate-100/80 dark:hover:bg-slate-800/40" x-show="currentPage === 1">
+              <td class="px-4 py-3 nerdy-muted">2026-10-11</td>
+              <td class="px-4 py-3 nerdy-muted-soft">3 min read</td>
+              <td class="px-4 py-3 font-bold">
+                <a class="text-slate-950 transition-colors hover:text-accent-cyan hover:underline dark:text-white" href="/posts/linux/preface/linux_series/my-first-post/">&#39;I use Fedora btw&#39;</a>
+              </td>
+              <td class="px-4 py-3">
+                
+                  <div class="flex flex-wrap gap-1.5">
+                    
+                      <span class="nerdy-chip nerdy-chip-cyan">#linux</span>
+                    
+                  </div>
+                
+              </td>
+            </tr>
+          
+            
+            <tr class="transition-colors hover:bg-slate-100/80 dark:hover:bg-slate-800/40" x-show="currentPage === 1">
+              <td class="px-4 py-3 nerdy-muted">2026-10-11</td>
+              <td class="px-4 py-3 nerdy-muted-soft">1 min read</td>
+              <td class="px-4 py-3 font-bold">
+                <a class="text-slate-950 transition-colors hover:text-accent-cyan hover:underline dark:text-white" href="/posts/linux/preface/linux_series/postinstallrush/">PostInstallRush</a>
+              </td>
+              <td class="px-4 py-3">
+                
+                  <div class="flex flex-wrap gap-1.5">
+                    
+                      <span class="nerdy-chip nerdy-chip-cyan">#linux</span>
+                    
+                  </div>
+                
+              </td>
+            </tr>
+          
+        </tbody>
+      </table>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-between gap-3 border-t border-slate-300/90 bg-slate-100/95 px-4 py-3 dark:border-slate-700/80 dark:bg-slate-900/40">
+      <span class="text-[10px] nerdy-muted-soft">10 posts per page · Page <span x-text="currentPage"></span> of 1</span>
+      <div class="flex flex-wrap gap-1.5">
+        <button class="rounded border px-2 py-1 text-[10px] transition-colors disabled:cursor-not-allowed disabled:opacity-40" type="button" x-on:click="currentPage = Math.max(1, currentPage - 1)" x-bind:disabled="currentPage === 1">Prev</button>
+        
+          <button class="rounded border px-2 py-1 text-[10px] transition-colors" type="button" x-on:click="currentPage = 1" x-bind:class="currentPage === 1 ? 'border-accent-cyan bg-accent-cyan/10 text-accent-cyan' : 'border-slate-300 text-slate-600 hover:text-slate-950 dark:border-slate-700 dark:hover:text-white'">1</button>
+        
+        <button class="rounded border px-2 py-1 text-[10px] transition-colors disabled:cursor-not-allowed disabled:opacity-40" type="button" x-on:click="currentPage = Math.min(1, currentPage + 1)" x-bind:disabled="currentPage === 1">Next</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+                  </div>
+                
               
                 
                 
@@ -311,6 +542,36 @@
 
   <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
     
+      <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-cyan relative flex min-h-52 flex-col justify-between overflow-hidden p-5" href="/posts/linux/preface/linux_series/postinstallrush/">
+        <div>
+          <div class="mb-3 flex items-center justify-between gap-3">
+            <time class="font-mono text-[10px] nerdy-muted-soft" datetime="2026-10-11">2026-10-11</time>
+            <span class="nerdy-chip nerdy-chip-cyan">preface</span>
+          </div>
+          <h3 class="mb-2 text-base font-bold leading-snug nerdy-card-title nerdy-title-accent-cyan">PostInstallRush</h3>
+          <p class="mb-4 line-clamp-3 text-xs leading-5 nerdy-muted">My setup, post-install.</p>
+        </div>
+        <div class="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 font-mono text-[11px] dark:border-slate-700/50">
+          <span class="nerdy-muted-soft">1 min read</span>
+          <span class="flex items-center gap-1 text-accent-cyan">Read <span class="transition-transform group-hover:translate-x-1">-&gt;</span></span>
+        </div>
+      </a>
+    
+      <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-cyan relative flex min-h-52 flex-col justify-between overflow-hidden p-5" href="/posts/linux/preface/linux_series/my-first-post/">
+        <div>
+          <div class="mb-3 flex items-center justify-between gap-3">
+            <time class="font-mono text-[10px] nerdy-muted-soft" datetime="2026-10-11">2026-10-11</time>
+            <span class="nerdy-chip nerdy-chip-cyan">preface</span>
+          </div>
+          <h3 class="mb-2 text-base font-bold leading-snug nerdy-card-title nerdy-title-accent-cyan">&#39;I use Fedora btw&#39;</h3>
+          <p class="mb-4 line-clamp-3 text-xs leading-5 nerdy-muted">A preface about me and Linux.</p>
+        </div>
+        <div class="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 font-mono text-[11px] dark:border-slate-700/50">
+          <span class="nerdy-muted-soft">3 min read</span>
+          <span class="flex items-center gap-1 text-accent-cyan">Read <span class="transition-transform group-hover:translate-x-1">-&gt;</span></span>
+        </div>
+      </a>
+    
       <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-cyan relative flex min-h-52 flex-col justify-between overflow-hidden p-5" href="/posts/konnichiwa/apiece/my-first-post/">
         <div>
           <div class="mb-3 flex items-center justify-between gap-3">
@@ -342,9 +603,28 @@
 
   <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
     
+        
+        
+        
+        
+        
+          
+        
+          
+        
+        <a class="group nerdy-card nerdy-card-hover nerdy-card-accent-purple relative block overflow-hidden p-5" href="/posts/linux/preface/linux_series/my-first-post/">
+          <div class="mb-3 flex items-center justify-between gap-3">
+            <span class="nerdy-chip nerdy-chip-purple rounded-full px-2.5 py-1 font-bold">ONGOING</span>
+            <span class="font-mono text-xs nerdy-muted-soft">2 Parts</span>
+          </div>
+          <h3 class="mb-2 text-lg font-bold nerdy-card-title nerdy-title-accent-purple">Tux diaries</h3>
+          <p class="mb-4 text-xs leading-relaxed nerdy-muted">A preface about me and Linux.</p>
+          <div class="flex items-center justify-between border-t border-slate-200 pt-2 font-mono text-xs dark:border-slate-800">
+            <span class="nerdy-muted-soft">Total read: <span class="font-bold">4 min</span></span>
+            <span class="nerdy-link">Start Reading -&gt;</span>
+          </div>
+        </a>
     
-      <div class="nerdy-card-dashed p-5 text-sm nerdy-muted md:col-span-2">No post series detected. Add a series folder with <code class="font-mono">_index.md</code> and matching posts to populate this area.</div>
-
     
   </div>
 </section>
@@ -360,7 +640,7 @@
   <h2 class="nerdy-section-title">&gt;&gt; All Posts</h2>
 </div>
 
-    <span class="font-mono text-xs nerdy-muted-soft">Showing 1 posts</span>
+    <span class="font-mono text-xs nerdy-muted-soft">Showing 3 posts</span>
   </div>
 
   <div class="nerdy-window">
@@ -386,6 +666,42 @@
           </tr>
         </thead>
         <tbody class="divide-y divide-slate-200 text-slate-800 dark:divide-slate-700/40 dark:text-slate-300">
+          
+            
+            <tr class="transition-colors hover:bg-slate-100/80 dark:hover:bg-slate-800/40" x-show="currentPage === 1">
+              <td class="px-4 py-3 nerdy-muted">2026-10-11</td>
+              <td class="px-4 py-3 nerdy-muted-soft">3 min read</td>
+              <td class="px-4 py-3 font-bold">
+                <a class="text-slate-950 transition-colors hover:text-accent-cyan hover:underline dark:text-white" href="/posts/linux/preface/linux_series/my-first-post/">&#39;I use Fedora btw&#39;</a>
+              </td>
+              <td class="px-4 py-3">
+                
+                  <div class="flex flex-wrap gap-1.5">
+                    
+                      <span class="nerdy-chip nerdy-chip-cyan">#linux</span>
+                    
+                  </div>
+                
+              </td>
+            </tr>
+          
+            
+            <tr class="transition-colors hover:bg-slate-100/80 dark:hover:bg-slate-800/40" x-show="currentPage === 1">
+              <td class="px-4 py-3 nerdy-muted">2026-10-11</td>
+              <td class="px-4 py-3 nerdy-muted-soft">1 min read</td>
+              <td class="px-4 py-3 font-bold">
+                <a class="text-slate-950 transition-colors hover:text-accent-cyan hover:underline dark:text-white" href="/posts/linux/preface/linux_series/postinstallrush/">PostInstallRush</a>
+              </td>
+              <td class="px-4 py-3">
+                
+                  <div class="flex flex-wrap gap-1.5">
+                    
+                      <span class="nerdy-chip nerdy-chip-cyan">#linux</span>
+                    
+                  </div>
+                
+              </td>
+            </tr>
           
             
             <tr class="transition-colors hover:bg-slate-100/80 dark:hover:bg-slate-800/40" x-show="currentPage === 1">
