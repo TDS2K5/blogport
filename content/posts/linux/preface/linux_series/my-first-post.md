@@ -8,7 +8,7 @@ tags: [linux]
 weight: 1
 draft: false
 ---
-This is how my journey with Linux started... all my distro hopping shenanigans described.
+## This is how my journey with Linux started... all my distro hopping shenanigans described.
 ![fedora](/images/linux/fedora.webp)
 
 I used to be the average Windows user like everyone else when I first got my laptop. It was installed by default. Being a poweruser, I quickly realised the flaws with Windows 11. Even after customizing the hell out of it, I felt it was always lacking behind. It was high time for a change. 
