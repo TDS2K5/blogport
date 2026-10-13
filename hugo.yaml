@@ -1,4 +1,5 @@
 baseURL: "https://tanishkputhran.dpdns.org/"
+relativeURL: true
 locale: en-us
 title: blogport
 disableKinds:
