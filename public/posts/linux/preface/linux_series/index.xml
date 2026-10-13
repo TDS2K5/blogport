@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tux diaries on blogport</title>
+		<link>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/</link>
+		<description>Recent content in Tux diaries on blogport</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 11 Oct 2026 20:53:41 +0530</lastBuildDate>
+		
+			<atom:link href="https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>&#39;I use Fedora btw&#39;</title>
+				<link>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/my-first-post/</link>
+				<pubDate>Sun, 11 Oct 2026 19:53:41 +0530</pubDate>
+				<guid>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/my-first-post/</guid>
+				<description>A preface about me and Linux.</description>
+			</item>
+			<item>
+				<title>PostInstallRush</title>
+				<link>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/postinstallrush/</link>
+				<pubDate>Sun, 11 Oct 2026 20:53:41 +0530</pubDate>
+				<guid>https://tanishkputhran.dpdns.org/posts/linux/preface/linux_series/postinstallrush/</guid>
+				<description>My setup, post-install.</description>
+			</item>
+	</channel>
+</rss>
