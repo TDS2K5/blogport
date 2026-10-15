@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-us" class="scroll-smooth" x-data="themeToggle">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
@@ -10,9 +10,7 @@
   
   
     
-      
-        <script src="/js/theme-scheme.728cc794b20914082a57bfe51ceb73a14cff2437c23c5c0ee3c2f0db88906d94.js" integrity="sha256-cozHlLIJFAgqV7/lHOtzoUz/JDfCPFwO48Lw24iQbZQ=" crossorigin="anonymous"></script>
-      
+      <script src="/js/theme-scheme.js"></script>
     
   
 
@@ -20,9 +18,7 @@
   
   
     
-      
-        <link rel="stylesheet" href="/css/main.5a1b88ed85de0b38660bd82188e47dbaf2ee2b7e046b8a43b7ba3dc59ce180ee.css" integrity="sha256-WhuI7YXeCzhmC9ghiOR9uvLuK34Ea4pDt7o9xZzhgO4=" crossorigin="anonymous">
-      
+      <link rel="stylesheet" href="/css/main.css">
     
   
 
@@ -33,9 +29,7 @@
   
   
     
-      
-        <script src="/js/main.cb27074bf61345f2470e300a818c52a4f5abc2df62e62c7552f097a1ec1d8359.js" integrity="sha256-yycHS/YTRfJHDjAKgYxSpPWrwt9i5ix1UvCXoewdg1k=" crossorigin="anonymous" defer></script>
-      
+      <script src="/js/main.js" defer></script>
     
   
 
@@ -133,7 +127,7 @@
           <div class="flex items-center gap-2">
             <svg class="h-4 w-4 text-slate-600 dark:text-slate-500" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
 
-            <time datetime="2026-10-11">2026-10-11</time>
+            <time datetime="2026-10-15">2026-10-15</time>
           </div>
           <span class="hidden text-slate-400 dark:text-slate-600 md:block">|</span>
         
@@ -141,7 +135,7 @@
           <div class="flex items-center gap-2">
             <svg class="h-4 w-4 text-slate-600 dark:text-slate-500" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l6 6v10a2 2 0 01-2 2z"/><path stroke-linecap="round" stroke-linejoin="round" d="M14 4v6h6"/></svg>
 
-            <span>2 min read</span>
+            <span>3 min read</span>
           </div>
         
         
@@ -270,33 +264,96 @@
         
 
         <article class="nerdy-prose prose prose-slate max-w-none dark:prose-invert">
-          <h1 id="important-software-and-tools-which-i-download-minutes-after-a-fresh-installation-cant-survive-without-them">Important software and tools which I download minutes after a fresh installation. (Can&rsquo;t survive without them)</h1>
+          <h1 id="important-software-and-tools-which-i-download-minutes-after-a-fresh-installation">Important software and tools which I download minutes after a fresh installation.</h1>
 <p><img src="/images/linux/piplup.webp" alt="fedora"></p>
 <p>This list is mostly distro-agnostic, which means regardless of whether I&rsquo;m using Fedora, Debian or Arch, I&rsquo;ll still need these to get my work done (and make my PC usable).</p>
 <h2 id="general">General</h2>
 <ul>
 <li>
-<p><strong>desktop environment</strong> : <em>KDE Plasma</em> is my chosen DE with its amazing quality of life features that can&rsquo;t be found anywhere else. The best part is its continuous and active development plus new features on every major update.</p>
+<p><strong>Desktop Environment</strong> : <em>KDE Plasma</em> is my chosen DE with its amazing quality of life features. Custom shortcuts, window rules, themes, animations, and the KDE roster of applications provide a buttery smooth experience.</p>
 </li>
 <li>
-<p><strong>shell</strong> : <em>zsh</em> and <em>oh-my-zsh</em> go hand in hand. Plugins, autocompletion and syntax highlighting are just so convenient.</p>
+<p><strong>Shell</strong> : <em>zsh</em> and <em>oh-my-zsh</em> go hand in hand. Plugins, autocompletion and syntax highlighting are just so convenient.</p>
 </li>
 <li>
-<p><strong>browser</strong> : I use <em>Vivaldi</em> for its looks and custom key bindings, my favorite one being Alt+H to hibernate all other tabs at once. Besides, there&rsquo;s Ublock origin lite for my adblocking needs.</p>
+<p><strong>Browser</strong> : I use <em>Vivaldi</em> for its looks and custom key bindings, my favorite one being Alt+H to hibernate all other tabs at once. Besides, there&rsquo;s Ublock origin lite for my adblocking needs.</p>
+</li>
+<li>
+<p><strong>Media player</strong> : <em>mpv</em> with custom configs and scripts. Hold to 2x speed functionality is missing in most other players.</p>
+</li>
+<li>
+<p><strong>Mobile Connectivity</strong> : KDE Connect is the defacto solution. Clipboard &amp; file sharing, notifications, lock/unlock PC, run commands from phone. Requires both the phone and PC to be on the same network (Tailscale counts here ;)</p>
+</li>
+<li>
+<p><strong>Editors</strong> :</p>
 </li>
 </ul>
+<ol>
+<li>Terminal - <em>micro</em> or <em>nano</em></li>
+<li>Coding - <em>VS Codium</em></li>
+<li>Journaling - <em>Kate</em></li>
+</ol>
+<hr>
 <h2 id="networking">Networking</h2>
 <ul>
-<li><strong>tailscale</strong> : Awesome solution to connect all the devices across my homelab and work as if they&rsquo;re on the same network. Without requiring a public IP, it creates a mesh VPN-based connection. No need to open ports on the internet. I also utilise Tailscale SSH to safely log into my devices without exposing port 22.</li>
-<li><strong>termius</strong> : Seamless way to log into servers without dealing with ssh-keys.</li>
-</ul>
-<h2 id="cli">CLI</h2>
-<ul>
 <li>
-<p><strong>gh</strong> : Just as I was trying to commit these files to my repo, a popup for Github login showed up. It reminded me of a small struggle I had to go through initially, where the KDE wallet had an issue with my crendentials. The easiest solution I found was GitHub CLI, with the simple command <code>gh auth login</code></p>
+<p><strong>Tailscale</strong> : Awesome solution to connect all the devices across my homelab and work as if they&rsquo;re on the same network. Without requiring a public IP, it creates a mesh VPN-based connection. No need to open ports on the internet. I also utilise Tailscale SSH to safely log into my devices without exposing port 22.</p>
 </li>
 <li>
+<p><strong>Termius</strong> : Seamless way to log into servers without dealing with ssh-keys.</p>
+</li>
+<li>
+<p><strong>Cloudflare One</strong> : <em>warp-cli</em> is a lifesaver whenever I&rsquo;m unable to access any website. Simply changes the DNS resolver to 1.1.1.1 so that I can comfortably browse the web. I turn it on only if necessary, it sits as a tray widget.</p>
+</li>
+</ul>
+<hr>
+<h2 id="cli--other-tools">CLI / Other tools</h2>
+<ul>
+<li>
 <p><strong>tmux</strong> : Multiple terminal windows made easy, the main advantage of <em>tmux</em> is it stays persistent on the server even after the ssh session has been closed. Best used along with plugins like tmux-resurrect and tmux-continuum.</p>
+</li>
+<li>
+<p><strong>gh</strong> : <em>GitHub CLI</em>, so that I can easily login before pushing repos for the first time. <code>gh auth login</code></p>
+</li>
+<li>
+<p><strong>android-tools</strong> : Contains <code>adb</code> and <code>fastboot</code>, helps a lot for Android development &amp; my custom rom hobby.</p>
+</li>
+<li>
+<p><strong>scrcpy</strong> : For screen sharing my phone to PC. I am greatful for this software because it helped me survive 6 months with a broken phone. It supports both wired and wireless modes. Requires USB debugging on the phone.</p>
+</li>
+<li>
+<p><strong>gnirehtet</strong> : From the developers of scrcpy, it provides reverse tethering over adb (PC to Android internet sharing).</p>
+</li>
+<li>
+<p><strong>pavucontrol</strong> : <em>PulseAudio volume control</em> allows me to manage speakers, earphones and other audio devices.</p>
+</li>
+<li>
+<p><strong>croc</strong> : Quick P2P file transfer across devices. Easy to use, although transfer speed depends upon network.</p>
+</li>
+<li>
+<p><strong>konsave</strong> : A lifesaver tool which is used to backup all my KDE settings and configurations as a <em>.knsv</em> file.</p>
+</li>
+<li>
+<p><strong>copyparty</strong> : Self-hosted file server packed as a single python file, supports various file operations and formats.</p>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>Honourable mentions -
+These are specific tools for the well-being of my laptop</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>ryzenadj</strong> : Allows me to underclock my CPU, set governors and maximum temperature limits. Stops from frying.</p>
+</li>
+<li>
+<p><strong>nbfc</strong> : <em>Notebook FanControl</em> with a customised json fan algorithm so that the fan doesn&rsquo;t  sound like a jet engine.</p>
+</li>
+<li>
+<p><strong>auto-cpufreq</strong> : CPU tuning. Strictly limits turbo mode.</p>
+</li>
+<li>
+<p><strong>hdajackretask</strong> : My laptop&rsquo;s microphone input doesn&rsquo;t work when I connect wired earphones. The fix is to manually override a specific pin (0x19) using <code>hdajackretask</code>. Testing takes some time but the fix works.</p>
 </li>
 </ul>
 
@@ -335,9 +392,9 @@
       </div>
 
       
-        <a class="toc-link" href="#important-software-and-tools-which-i-download-minutes-after-a-fresh-installation-cant-survive-without-them" data-toc-link data-target="important-software-and-tools-which-i-download-minutes-after-a-fresh-installation-cant-survive-without-them">
+        <a class="toc-link" href="#important-software-and-tools-which-i-download-minutes-after-a-fresh-installation" data-toc-link data-target="important-software-and-tools-which-i-download-minutes-after-a-fresh-installation">
           <span class="toc-bar" aria-hidden="true"></span>
-          <span class="toc-text">Important software and tools which I download minutes after a fresh installation. (Can&rsquo;t survive without them)</span>
+          <span class="toc-text">Important software and tools which I download minutes after a fresh installation.</span>
         </a>
       
         <a class="toc-link toc-link--child" href="#general" data-toc-link data-target="general">
@@ -350,9 +407,9 @@
           <span class="toc-text">Networking</span>
         </a>
       
-        <a class="toc-link toc-link--child" href="#cli" data-toc-link data-target="cli">
+        <a class="toc-link toc-link--child" href="#cli--other-tools" data-toc-link data-target="cli--other-tools">
           <span class="toc-bar" aria-hidden="true"></span>
-          <span class="toc-text">CLI</span>
+          <span class="toc-text">CLI / Other tools</span>
         </a>
       
     </nav>
