@@ -1,0 +1,9 @@
+<pre class="font-mono whitespace-pre-wrap leading-relaxed"><span class="text-accent-purple">{{ .greeting }}</span>I'm <span class="font-bold text-accent-purple">{{ .person_name }}</span>, <span>a DevOps Engineer and Linux enthusiast.</span>
+{{ .summary }}
+
+{{ range .details -}}
+{{ . }}
+{{ end }}
+{{ with .quote }}
+&gt; <span class="italic nerdy-muted-soft">"{{ .text }}"{{ with .author }} - {{ . }}{{ end }}</span>
+{{ end }}</pre>
