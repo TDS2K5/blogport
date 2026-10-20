@@ -2,7 +2,7 @@
 title: "PostInstallRush"
 date: 2026-10-15T20:53:41+05:30
 subject: Linux
-topic: preface
+topic: install
 summary: My setup, post-install.
 tags: [linux]
 weight: 2
@@ -24,8 +24,10 @@ This list is mostly distro-agnostic, which means regardless of whether I'm using
 
 - **Media player** : *mpv* with custom configs and scripts. Hold to 2x speed functionality is missing in most other players.
 
-- **Mobile Connectivity** : KDE Connect is the defacto solution. Clipboard & file sharing, notifications, lock/unlock PC, run commands from phone. Requires both the phone and PC to be on the same network (Tailscale counts here ;)
+- **Mobile Connectivity** : *KDE Connect* is the defacto solution. Clipboard & file sharing, notifications, lock/unlock PC, run commands from phone. Requires both the phone and PC to be on the same network (Tailscale counts here ;)
 
+- **Torrent Client** : *qBittorrent* handles my Linux ISO downloads. I have also added search plugins to quickly find media.
+ 
 - **Editors** : 
  1. Terminal - *micro* or *nano*
  2. Coding - *VS Codium*
