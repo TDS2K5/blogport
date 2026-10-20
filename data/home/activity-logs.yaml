@@ -6,15 +6,24 @@ activityLimit: 20
 lookbackDays: 15
 includePosts: true
 postSection: posts
-items:
-  - activityDate: 2026-06-24
-    type: merged-pr
-    info:
-      number: 1042
-
-  - activityDate: 2026-06-21
-    type: release
-    info:
-      version: v2.3.5
-      url: https://github.com/
-      repo: https://github.com/
+# items:
+#  #  - activityDate: 2026-06-24
+#  #    type: merged-pr
+#  #    info:
+#  #      number: 1042
+#  #
+#  #  - activityDate: 2026-06-21
+#  #    type: release
+#  #    info:
+#  #      version: v2.3.5
+#  #      url: https://github.com/
+#  #      repo: https://github.com/
+#  #
+#  # - activityDate: 2026-05-20
+#  #   type: release
+#  #   info:
+#  #        version: v2.3.5
+#  #        url: https://github.com/
+#  #        repo: https://github.com/
+#  #
+#  #
