@@ -21,7 +21,7 @@ echo "Deployment completed :)"
 
 
 # --- How to run remote commands ---
-# If I ever need to run actual commands on the VM (like restarting Nginx), wrap them in an EOF block like this:
+# Run actual commands on the VM (like restarting Nginx), wrap them in an EOF block like this:
 #
 # ssh ubuntu@oraclevm << 'EOF'
 #   sudo systemctl restart nginx
