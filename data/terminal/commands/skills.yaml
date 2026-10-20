@@ -15,11 +15,11 @@ categories:
       - Tailscale
       - Wireshark
       - Packet Tracer
-  - key: platforms
+  - key: telephony
     items:
-      - Linux
-      - Windows
-      - Android
+      - FreeSwitch
+      - MicroSIP
+      - Linphone
   - key: devops_tools
     items:
       - Docker
