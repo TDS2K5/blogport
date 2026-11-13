@@ -12,5 +12,9 @@
   "type": "commonjs",
   "workspaces": [
     "packages/hugoautogen"
-  ]
+  ],
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
 }
